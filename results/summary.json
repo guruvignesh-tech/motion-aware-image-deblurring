@@ -1,0 +1,211 @@
+[
+  {
+    "method": "raw",
+    "n": 16,
+    "psnr_linear_db": 20.151635248301385,
+    "ssim_linear": 0.3639798630028963,
+    "correct_matches": 0.0625,
+    "forward_ms": 0.0,
+    "mean_match_precision_nonempty": 0.02222222222222222,
+    "samples_with_matches": 15,
+    "peak_allocated_mb": 0.0
+  },
+  {
+    "method": "gyro",
+    "n": 16,
+    "psnr_linear_db": 27.180995671508633,
+    "ssim_linear": 0.7706074565649033,
+    "correct_matches": 37.875,
+    "forward_ms": 62.392487498073024,
+    "mean_match_precision_nonempty": 0.6511000071644667,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "reconstructed_diagnostic",
+    "n": 16,
+    "psnr_linear_db": 27.38624879415578,
+    "ssim_linear": 0.7775182574987411,
+    "correct_matches": 39.0625,
+    "forward_ms": 60.928393751964904,
+    "mean_match_precision_nonempty": 0.6822512865636745,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_0",
+    "n": 16,
+    "psnr_linear_db": 21.295295222050356,
+    "ssim_linear": 0.5683939326554537,
+    "correct_matches": 3.5,
+    "forward_ms": 64.62980624928605,
+    "mean_match_precision_nonempty": 0.11194524429818549,
+    "samples_with_matches": 13,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_0.5",
+    "n": 16,
+    "psnr_linear_db": 24.208713634264285,
+    "ssim_linear": 0.656520051881671,
+    "correct_matches": 15.25,
+    "forward_ms": 63.66089999937685,
+    "mean_match_precision_nonempty": 0.29081961085153807,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_0.75",
+    "n": 16,
+    "psnr_linear_db": 26.94778043585751,
+    "ssim_linear": 0.7607757709920406,
+    "correct_matches": 33.375,
+    "forward_ms": 62.980525004604715,
+    "mean_match_precision_nonempty": 0.6186314537788764,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_1.25",
+    "n": 16,
+    "psnr_linear_db": 26.64485566248273,
+    "ssim_linear": 0.7575939409434795,
+    "correct_matches": 30.25,
+    "forward_ms": 62.2723562464671,
+    "mean_match_precision_nonempty": 0.599363119587232,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_1.5",
+    "n": 16,
+    "psnr_linear_db": 25.348501005424218,
+    "ssim_linear": 0.7011193325743079,
+    "correct_matches": 19.125,
+    "forward_ms": 65.3211749959155,
+    "mean_match_precision_nonempty": 0.4318007592904294,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "scale_-1",
+    "n": 16,
+    "psnr_linear_db": 21.904260416921232,
+    "ssim_linear": 0.5649111401289701,
+    "correct_matches": 3.4375,
+    "forward_ms": 61.62126249728317,
+    "mean_match_precision_nonempty": 0.08905398110661268,
+    "samples_with_matches": 15,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "rotate_5",
+    "n": 16,
+    "psnr_linear_db": 27.052104419160543,
+    "ssim_linear": 0.7684365473687649,
+    "correct_matches": 35.625,
+    "forward_ms": 62.66088124903035,
+    "mean_match_precision_nonempty": 0.6026132141260072,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "rotate_15",
+    "n": 16,
+    "psnr_linear_db": 26.267680594349706,
+    "ssim_linear": 0.7354138530790806,
+    "correct_matches": 26.6875,
+    "forward_ms": 63.574268751835916,
+    "mean_match_precision_nonempty": 0.4968474513257134,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_0.25_0",
+    "n": 16,
+    "psnr_linear_db": 27.04338783781208,
+    "ssim_linear": 0.7674156054854393,
+    "correct_matches": 37.125,
+    "forward_ms": 61.04536875136546,
+    "mean_match_precision_nonempty": 0.6170318864142611,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_0.25_1",
+    "n": 16,
+    "psnr_linear_db": 27.030863039904958,
+    "ssim_linear": 0.7668629921972752,
+    "correct_matches": 37.3125,
+    "forward_ms": 61.9514124973648,
+    "mean_match_precision_nonempty": 0.6154048726144596,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_0.25_2",
+    "n": 16,
+    "psnr_linear_db": 27.0589990517097,
+    "ssim_linear": 0.7683936916291714,
+    "correct_matches": 36.6875,
+    "forward_ms": 62.947112493930035,
+    "mean_match_precision_nonempty": 0.6178796247015444,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_1.0_0",
+    "n": 16,
+    "psnr_linear_db": 26.314408214602885,
+    "ssim_linear": 0.744451642036438,
+    "correct_matches": 30.1875,
+    "forward_ms": 62.36489375260135,
+    "mean_match_precision_nonempty": 0.5300908097713156,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_1.0_1",
+    "n": 16,
+    "psnr_linear_db": 26.044846730213578,
+    "ssim_linear": 0.7373872995376587,
+    "correct_matches": 28.3125,
+    "forward_ms": 61.773093746523955,
+    "mean_match_precision_nonempty": 0.49234279144222814,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "noise_1.0_2",
+    "n": 16,
+    "psnr_linear_db": 26.106102824989147,
+    "ssim_linear": 0.7446842826902866,
+    "correct_matches": 29.625,
+    "forward_ms": 62.77948750539508,
+    "mean_match_precision_nonempty": 0.5358702081744208,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 144.37939453125
+  },
+  {
+    "method": "restormer_direct",
+    "n": 16,
+    "psnr_linear_db": 19.903600728671005,
+    "ssim_linear": 0.3655206626281142,
+    "correct_matches": 0.4375,
+    "forward_ms": 470.25323125126306,
+    "mean_match_precision_nonempty": 0.043000858790332476,
+    "samples_with_matches": 13,
+    "peak_allocated_mb": 676.3828125
+  },
+  {
+    "method": "restormer_gamma_bridge",
+    "n": 16,
+    "psnr_linear_db": 19.5172469331455,
+    "ssim_linear": 0.32000007573515177,
+    "correct_matches": 0.0,
+    "forward_ms": 470.68693125220307,
+    "mean_match_precision_nonempty": 0.0,
+    "samples_with_matches": 16,
+    "peak_allocated_mb": 676.3828125
+  }
+]

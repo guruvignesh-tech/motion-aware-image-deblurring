@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-08",
+  "crop_size": 256,
+  "evaluation_border": 24,
+  "precision": "FP32",
+  "batch": 1,
+  "device": "NVIDIA GeForce GTX 1060 with Max-Q Design",
+  "torch": "2.5.1+cu118",
+  "torchvision": "0.20.1+cu118",
+  "python": "3.10.11",
+  "selection": "IDs 1+40*k for k=0..15, fixed before inference; background diversity checked visually, no confirmed independent capture IDs",
+  "scene_note": "Expanded sample: visually diverse backgrounds; independent capture IDs not verified.",
+  "checkpoint_sha256": {
+    "gyro": "2583f2069cd0c0b0e66268b0b7200180c14a32f930a41094160a7c01e8440283",
+    "restormer": "194e38fb5b607c9dc5a5b3e08e65b2e79ee2bf0ef5048e0612f6b2ff2f79da31"
+  },
+  "source_commits": {
+    "GyroDeblurNet": "ff8beec5d0af6e8e132bbff1db19ce46247ce869",
+    "Restormer": "68dc6ac472db26f16361150cb7a96a1bc87da93f"
+  },
+  "scope": "same-image sharp-feature recovery, not inter-frame tracking; pretrained models differ in training data and architecture",
+  "color": "Gyro official tensor input treated as linear; Restormer tested direct and with authors display power-1/2.2 bridge; bridge is an assumption, not exact ISP calibration"
+}

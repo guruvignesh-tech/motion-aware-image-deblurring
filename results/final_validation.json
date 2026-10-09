@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "unique_measurements": 304,
+  "samples": 16,
+  "conditions": 19,
+  "finite_output_arrays": 288,
+  "verified_input_hashes": 48
+}

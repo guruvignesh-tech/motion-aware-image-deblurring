@@ -1,0 +1,42 @@
+{
+  "sample_ids": [
+    "000001",
+    "000041",
+    "000081",
+    "000121",
+    "000161",
+    "000201",
+    "000241",
+    "000281",
+    "000321",
+    "000361",
+    "000401",
+    "000441",
+    "000481",
+    "000521",
+    "000561",
+    "000601"
+  ],
+  "gyro_conditions": [
+    "gyro",
+    "reconstructed_diagnostic",
+    "scale_0",
+    "scale_0.5",
+    "scale_0.75",
+    "scale_1.25",
+    "scale_1.5",
+    "scale_-1",
+    "rotate_5",
+    "rotate_15",
+    "noise_0.25_0",
+    "noise_0.25_1",
+    "noise_0.25_2",
+    "noise_1.0_0",
+    "noise_1.0_1",
+    "noise_1.0_2"
+  ],
+  "noise": "Gaussian additive offsets per channel, shared over spatial positions, sigma in original image pixels per temporal segment; three fixed seeds",
+  "rotation": "2D rotation of each XY field vector; not calibrated camera-IMU extrinsic error",
+  "scope": "field-level robustness only; raw timing/physical sensor error conversion remains unresolved",
+  "controls": "same input pixels and crop under every condition; no model adaptation, no parameter selection from outcomes"
+}
